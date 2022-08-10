@@ -1,0 +1,44 @@
+{
+	"name": "solid-image",
+	"version": "0.0.0",
+	"main": "./dist/main.js",
+	"type": "module",
+	"scripts": {
+		"start": "node .",
+		"build": "rollup -c",
+		"build:dev": "ROLLUP_RUN=true rollup -c -w"
+	},
+	"keywords": [
+		"solid",
+		"solidjs",
+		"canvas"
+	],
+	"author": {
+		"name": "Seanghay Yath",
+		"email": "seanghay.dev@gmail.com",
+		"url": "https://github.com/seanghay"
+	},
+	"license": "Apache-2.0",
+	"devDependencies": {
+		"@babel/core": "^7.18.10",
+		"@babel/preset-env": "^7.18.10",
+		"@rollup/plugin-babel": "^5.3.1",
+		"@rollup/plugin-commonjs": "^22.0.2",
+		"@rollup/plugin-node-resolve": "^13.3.0",
+		"@rollup/plugin-run": "^2.1.0",
+		"babel-preset-solid": "^1.4.8",
+		"csstype": "^3.1.0",
+		"goober": "^2.1.10",
+		"rollup": "^2.77.2",
+		"solid-styled-components": "^0.28.4"
+	},
+	"dependencies": {
+		"@solidjs/router": "^0.4.2",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"http-graceful-shutdown": "^3.1.8",
+		"puppeteer-core": "^16.1.0",
+		"solid-js": "^1.4.8",
+		"twind": "^0.16.17"
+	}
+}
